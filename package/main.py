@@ -47,7 +47,7 @@ class Generator():
             self.productList[i].quantity = int(self.productList[i].quantity)*int(guestNumber)
 
     def printList(self):
-        print("Typ imprezy:",self.parameters[0],", Ilość gości:",self.parameters[1])
+        print("...imprezy:",self.parameters[0],", Ilość gości:",self.parameters[1])
         for i in range(self.productList.__len__()):
             print("Produkt:", self.productList[i].name, ", Ilość:", self.productList[i].quantity, "szt.")
 
